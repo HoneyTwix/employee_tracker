@@ -32,7 +32,7 @@ function beginTracker() {
             ],
         }
     ]).then(function(val) {
-        // use a switch to cycle through the choices and prompt accordingly with a function
+        // use a switch to prompt certain choices
         switch (val.choose) {
             case 'View departments':
                 viewDepts();
